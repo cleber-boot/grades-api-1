@@ -1,0 +1,32 @@
+#
+POST http://localhost:3000/accounts
+Content-Type: application/json
+
+{
+"agencia":8,
+"conta": 8,
+"name" : "Paula",
+"balance": 200
+
+}
+###
+
+
+
+
+
+DELETE http://localhost:3000/accounts/removeandshownumberaccounts/33/9101
+
+###
+PUT http://localhost:3000/accounts/transfer/1017/9102/150
+Content-Type: application/json
+
+{
+
+
+
+}
+###
+get http://localhost:3000/accounts/media/25
+
+###

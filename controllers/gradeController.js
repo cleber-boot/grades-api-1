@@ -1,9 +1,18 @@
 import { db } from '../models/index.js';
 import { logger } from '../config/logger.js';
 
+const Grade = db.grade;
+
 const create = async (req, res) => {
+    const grade = new Grade({
+    agencia: req.body.agencia,
+    conta: req.body.conta,
+    name: req.body.name,
+    balance: req.body.balance,
+  });
   try {
-    res.send({ message: 'Grade inserido com sucesso' });
+       const data = await grade.save();
+    res.send({ message: 'Grade inserido com sucesso'+data });
     logger.info(`POST /grade - ${JSON.stringify()}`);
   } catch (error) {
     res
