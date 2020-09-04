@@ -18,7 +18,7 @@ export default (mongoose) => {
       min: 0,
     
     },
-    lastModified: {
+    lastModified : {
       type: String,
       required: true,
     },

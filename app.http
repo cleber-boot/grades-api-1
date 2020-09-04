@@ -1,12 +1,13 @@
 #
-POST http://localhost:3000/accounts
+POST http://localhost:3000/grade
 Content-Type: application/json
 
 {
-"agencia":8,
-"conta": 8,
-"name" : "Paula",
-"balance": 200
+"name":8,
+"subject": 8,
+"type" : "Paula",
+"value": 200,
+"lastModified": "data"
 
 }
 ###
