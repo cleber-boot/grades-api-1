@@ -1,11 +1,11 @@
 #
-POST http://localhost:3000/grade
+POST https://grades-api-cleber.herokuapp.com/grade
 Content-Type: application/json
 
 {
-"name":8,
-"subject": 8,
-"type" : "Paula",
+"name":"Pablo",
+"subject": "React",
+"type" : "Desafio",
 "value": 200,
 "lastModified": "data"
 
