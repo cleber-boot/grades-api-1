@@ -28,6 +28,6 @@ Content-Type: application/json
 
 }
 ###
-get http://localhost:3000/accounts/media/25
+get https://grades-api-cleber.herokuapp.com/grade/
 
 ###
