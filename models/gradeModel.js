@@ -16,15 +16,14 @@ export default (mongoose) => {
       type: Number,
       required: true,
       min: 0,
-    
     },
-    lastModified : {
+    lastModified: {
       type: String,
       required: true,
     },
   });
 
-  const Grade = mongoose.model('grade', accountSchema, 'grade');
+  const Grade = mongoose.model('grade', gradeSchema, 'grade');
 
   return Grade;
 };
