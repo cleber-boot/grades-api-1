@@ -16,10 +16,10 @@ Content-Type: application/json
 
 
 
-DELETE http://localhost:3000/accounts/removeandshownumberaccounts/33/9101
+DELETE https://grades-api-cleber.herokuapp.com/grade/5f537f22de9b6f001791377
 
 ###
-PUT http://localhost:3000/accounts/transfer/1017/9102/150
+PUT https://grades-api-cleber.herokuapp.com/grade/5f537f22de9b6f001791377
 Content-Type: application/json
 
 {
