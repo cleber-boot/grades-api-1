@@ -1,0 +1,33 @@
+#
+POST http://localhost:3000/grade
+Content-Type: application/json
+
+{
+"name":8,
+"subject": 8,
+"type" : "Paula",
+"value": 200,
+"lastModified": "data"
+
+}
+###
+
+
+
+
+
+DELETE http://localhost:3000/accounts/removeandshownumberaccounts/33/9101
+
+###
+PUT http://localhost:3000/accounts/transfer/1017/9102/150
+Content-Type: application/json
+
+{
+
+
+
+}
+###
+get http://localhost:3000/accounts/media/25
+
+###
