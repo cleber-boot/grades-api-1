@@ -6,7 +6,7 @@ Content-Type: application/json
 "name":"Pablo",
 "subject": "React",
 "type" : "Desafio",
-"value": 200,
+"value": 200
 
 
 }
