@@ -7,7 +7,7 @@ Content-Type: application/json
 "subject": "React",
 "type" : "Desafio",
 "value": 200,
-"lastModified": "data"
+
 
 }
 ###

@@ -18,8 +18,8 @@ export default (mongoose) => {
       min: 0,
     },
     lastModified: {
-      type: String,
-      required: true,
+      type: Date,
+      default: Date.now,
     },
   });
 
